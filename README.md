@@ -18,3 +18,24 @@ simulation_timestep = 0.01 #time_unit
 ```
 ___________________________________________________________________________
 ![Description](https://github.com/jawolfe97/Reaction_Modeler/blob/main/AtoB.svg)
+
+**Example 2**
+2A + C -> B <-> D
+2D -> A
+E -> 2D
+___________________________________________________________________________
+```r
+# === USER INPUT ===
+reaction_input = "2A + C -> B : 0.01, 2D -> A : 0.01, B <-> D: 0.01//0.01, E -> 2D: 0.1"
+concentration_input = "A: 50, B: 50, C: 50, D: 50, E: 50"
+
+# === UNITS ===
+time_unit = "s"
+conc_unit = "mM"
+
+# === Simuplation Parameters ===
+simulation_length = 100 #time_unit
+simulation_timestep = 0.01 #time_unit
+```
+___________________________________________________________________________
+![Description](https://github.com/jawolfe97/Reaction_Modeler/blob/main/AtoB.svg)
