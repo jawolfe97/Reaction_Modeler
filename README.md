@@ -3,6 +3,7 @@ Python code to simulate and visualize reaction progression over time
 
 **Example 1: A <-> B**
 ___________________________________________________________________________
+Code Snippet for Programming
 ```r
 # === USER INPUT ===
 reaction_input = "A <-> B : 0.1//0.1"
@@ -17,7 +18,19 @@ simulation_length = 100 #time_unit
 simulation_timestep = 0.01 #time_unit
 ```
 ___________________________________________________________________________
+Printout for Simulation
+```r
+=== Initial Concentrations ===
+A: 100.0 mM
+B: 20.0 mM
+
+=== List of All Reactions ===
+R1: A -> B    (rate = k1 * [A], k1 = 0.1)
+R2: B -> A    (rate = k2 * [B], k2 = 0.1)
+```
+___________________________________________________________________________
 ![Description](https://github.com/jawolfe97/Reaction_Modeler/blob/main/AtoB.svg)
+
 
 **Example 2: Complex Rxn**
 ___________________________________________________________________________
