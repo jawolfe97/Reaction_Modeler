@@ -19,10 +19,7 @@ simulation_timestep = 0.01 #time_unit
 ___________________________________________________________________________
 ![Description](https://github.com/jawolfe97/Reaction_Modeler/blob/main/AtoB.svg)
 
-**Example 2**
-2A + C -> B <-> D
-2D -> A
-E -> 2D
+**Example 2: Complex Rxn**
 ___________________________________________________________________________
 ```r
 # === USER INPUT ===
@@ -38,4 +35,4 @@ simulation_length = 100 #time_unit
 simulation_timestep = 0.01 #time_unit
 ```
 ___________________________________________________________________________
-![Description](https://github.com/jawolfe97/Reaction_Modeler/blob/main/AtoB.svg)
+![Description](https://github.com/jawolfe97/Reaction_Modeler/blob/main/ComplexRxn_100s.svg)
