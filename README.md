@@ -2,7 +2,7 @@
 Python code to simulate and visualize reaction progression over time. 
 
 Note: Reaction inputs are lists of single steps or equilibria with each species designated as a single letter code. A colon separates out the reaction or species from its rate or concentration. 
-Coding examples displayed below. Great for introductory demonstrations of reaction kinetics and equilibria. Likely insufficient integration accuracy to known complex oscillating reactions like Iodine Clock.
+Coding examples displayed below. Great for introductory demonstrations of reaction kinetics and equilibria. Likely insufficient integration accuracy to demonstrate known complex oscillating reactions like Iodine Clock.
 
 **Example 1: A <-> B**
 ___________________________________________________________________________
