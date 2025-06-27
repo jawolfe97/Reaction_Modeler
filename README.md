@@ -36,6 +36,8 @@ ___________________________________________________________________________
 
 
 **Example 2: Complex Rxn**
+In this example, it's not obvious at first, but C is the limiting reagent. 
+The initial spike in B can't be sustained and since nothing interconverts with C, the first reaction slowly dies out and A becomes the only remaining species.
 ___________________________________________________________________________
 ```r
 # === USER INPUT ===
