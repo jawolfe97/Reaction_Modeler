@@ -71,3 +71,7 @@ simulation_timestep = 0.01 #time_unit
 ___________________________________________________________________________
 ![Description](https://github.com/jawolfe97/Reaction_Modeler/blob/main/ComplexRxn_1000s.svg)
 
+## Acknowledgments
+
+Parts of this code were generated or assisted by OpenAI's ChatGPT (GPT-4), based on user prompts. All generated code was reviewed and modified for correctness and performance.
+
